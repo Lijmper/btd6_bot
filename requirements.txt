@@ -1,6 +1,28 @@
-pip install --upgrade pip
-pip install pydirectinput
-pip install pyautogui
-pip install tkinter
-pip install opencv-python
-pip install pathlib
+certifi
+charset-normalizer
+docopt
+idna
+MouseInfo
+mss
+numpy
+opencv-python
+pathlib
+Pillow
+pipreqs
+PyAutoGUI
+PyDirectInput
+PyGetWindow
+pyglet
+Pymem
+PyMsgBox
+pyperclip
+PyRect
+PyScreeze
+pytesseract
+python-imagesearch
+python3-xlib
+pytweening
+ReadWriteMemory
+requests
+urllib3
+yarg
