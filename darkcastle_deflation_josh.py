@@ -12,15 +12,15 @@ while True:
     gamecount += 1
     monkeymoney += 60
 
-    btd6.build('village', 830, 294, '002')
-    btd6.build('bomb', 707, 429, '420')
-    btd6.build('bomb', 887, 427, '230')
-    btd6.build('bomb', 863, 427, '204')
-    btd6.build('bomb', 684, 364, '130')
-    btd6.build('bomb', 666, 269, '130')
-    btd6.build('hero', 762, 364, '200')
-    btd6.sell(830, 294)
-    btd6.build('village', 830, 294, '020')
+    btd6.build('village', 846, 292, '002')
+    btd6.build('bomb', 697, 425, '420')
+    btd6.build('bomb', 773, 424, '230')
+    btd6.build('bomb', 849, 429, '204')
+    btd6.build('bomb', 667, 348, '130')
+    btd6.build('bomb', 660, 279, '130')
+    btd6.build('hero', 761, 357, '000')
+    btd6.sell(846, 292)
+    btd6.build('village', 846, 292, '020')
 
     btd6.startgame()
     p.click(960, 540)
