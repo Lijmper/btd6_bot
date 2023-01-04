@@ -11,7 +11,6 @@ while True:
     start = t.time()
     gamecount += 1
     monkeymoney += 60
-
     btd6.build('village', 846, 292, '002')
     btd6.build('bomb', 697, 425, '420')
     btd6.build('bomb', 773, 424, '230')
@@ -21,7 +20,6 @@ while True:
     btd6.build('hero', 761, 357, '000')
     btd6.sell(846, 292)
     btd6.build('village', 846, 292, '020')
-
     btd6.startgame()
     p.click(960, 540)
     btd6.checknotif()
