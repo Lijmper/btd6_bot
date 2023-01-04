@@ -39,7 +39,7 @@ while True:
     monkeymoney += 60
 
     p.click(960, 540)
-    btd6.filebuild('maps\%s\%s\%s' %(map, gamemode, strategy))
+    btd6.filebuild(map, gamemode, strategy)
     btd6.startgame()
     btd6.checknotif()
     stop = t.time()
