@@ -1,6 +1,5 @@
-Start your game on deflation dark castle with Obyn. Monkey knowledge is not needed.
+Run
 
-USE THESE IF YOU ARE MISSING THE NEEDED LIBRARIES
-pip install --upgrade pip
-pip install pydirectinput
-pip install python_imagesearch
+pip install -r requirements.txt
+
+Open main and run the file, this will open a gui. Choose the map, gamemode and strategy for the script.
