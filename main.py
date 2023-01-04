@@ -1,4 +1,3 @@
-import functions as btd6
 from functions import *
 p.FAILSAFE= True
 
@@ -39,11 +38,11 @@ while True:
     monkeymoney += 60
 
     p.click(960, 540)
-    btd6.filebuild(map, gamemode, strategy)
-    btd6.startgame()
-    btd6.checknotif()
+    filebuild(map, gamemode, strategy)
+    startgame()
+    checknotif()
     stop = t.time()
-    btd6.restartgame()
+    restartgame()
     total = stop-start
     seconds = int(total%60)
     minutes = int((total%3600)/60)
