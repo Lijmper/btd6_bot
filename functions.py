@@ -7,7 +7,7 @@ from tkinter import *
 
 monkeys = {'hero':'u',
 'dart':'q','boomerang':'w','bomb':'e','tack':'r','ice':'t','glue':'y',
-'sniper':'z','sub':'x','buccaneer':'c','ace':'v','heli':'b','mortar':'n..x','dartling':'m',
+'sniper':'z','sub':'x','buccaneer':'c','ace':'v','heli':'b','mortar':'n','dartling':'m',
 'wizard':'a','super':'s','ninja':'d','alchemist':'f','druid':'g',
 'spac':'j','village':'k','engineer':'l'}
 
