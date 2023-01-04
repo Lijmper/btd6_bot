@@ -1,3 +1,4 @@
+
 import pydirectinput as p
 import time as t
 from python_imagesearch.imagesearch import imagesearch_from_folder
@@ -26,21 +27,24 @@ def checknotif():
     while True:
         t.sleep(2)
         imgs=imagesearch_from_folder('./', 0.8)
-        if imgs['./win.png'] != [-1, -1]:
-            t.sleep(1)
-            p.click(960,910)
-            t.sleep(1)
-            p.click(1230, 840)
-            break
-        elif imgs['./levelup.png'] != [-1, -1]:
-            t.sleep(1)
-            p.click(960, 540)
-            t.sleep(1)
-            p.click(960, 540)
-            t.sleep(1)
-            p.press('space', presses=2, interval=0.25)
-            pass
-        else:
+        try:
+            if imgs['./win.png'] != [-1, -1]:
+                t.sleep(1)
+                p.click(960,910)
+                t.sleep(1)
+                p.click(1230, 840)
+                break
+            elif imgs['./levelup.png'] != [-1, -1]:
+                t.sleep(1)
+                p.click(960, 540)
+                t.sleep(1)
+                p.click(960, 540)
+                t.sleep(1)
+                p.press('space', presses=2, interval=0.25)
+                pass
+            else:
+                pass
+        except:
             pass
 
 def build(monkey, x, y, upgr, t=0):
